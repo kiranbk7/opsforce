@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ExperienceBundle</name>
+	</types>
+	<types>
+		<members>Add_new_Instruction_Definition</members>
+		<members>Custom_Topics_Usage</members>
+		<members>Custom_Topics_Usage1</members> 
+		<members>SageMakerServiceFlow</members>
+		<members>Send_Email_to_Leads_Template</members>
+		<members>Send_Order_Update</members>
+		<members>campaign_and_campaign_members</members>
+		<members>lead_agent_flow</members>
+		<members>lead_email_action</members>
+		<members>send_email_opp</members>
+		<members>send_email_to_opp</members>
+		<members>xxOFA_Generate_Agent_Instruction</members>
+		<members>xxOFA_Identify_Customer_By_Email</members>
+		<name>GenAiFunction</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Network</name>
+	</types>
+	<version>63.0</version>
+</Package>
