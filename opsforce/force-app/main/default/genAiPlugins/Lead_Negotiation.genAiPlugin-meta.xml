@@ -81,6 +81,12 @@
         <language>en_US</language>
         <masterLabel>instruction_wheneverac9</masterLabel>
     </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Email personalized offers to the customer. Ensure that the offers align with their interests and preferences. Provide clear and concise product information to facilitate informed decisions. Acknowledge the customer&apos;s time and express appreciation for their engagement.</description>
+        <developerName>instruction_emailthepe810</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_emailthepe8</masterLabel>
+    </genAiPluginInstructions>
     <language>en_US</language>
     <masterLabel>Lead Negotiation</masterLabel>
     <pluginType>Topic</pluginType>
