@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Registration",
+  "contentBody" : {
+    "activeViewId" : "Registration",
+    "configurationTags" : [ ],
+    "pageAccess" : "Public",
+    "routeType" : "custom-registration",
+    "urlPrefix" : "registration"
+  },
+  "urlName" : "registration"
+}

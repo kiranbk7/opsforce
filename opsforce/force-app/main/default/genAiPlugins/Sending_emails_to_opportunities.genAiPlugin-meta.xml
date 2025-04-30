@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiPluginUtterances>
+        <developerName>utterance_sendemailt0</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_sendemailt0</masterLabel>
+        <utterance>send email to Opportunties created yesterday</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_sendemailt1</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_sendemailt1</masterLabel>
+        <utterance>send email to Opportunity where status is in negotiation</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>sending emai to the opportunities criteria  specified by the user</description>
+    <developerName>Sending_emails_to_opportunities</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyRecordByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__QueryRecords</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>AdminCopilot__IdentifyObjectByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyObjectByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>send_email_opp</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>fetch the Opportunties and the criteria is mentioned</description>
+        <developerName>instruction_fetchtheop0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_fetchtheop0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Sending emails to opportunities</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is fetch the opportunities and send email and criteria of the opportunitiesis mentioned by the user</scope>
+</GenAiPlugin>

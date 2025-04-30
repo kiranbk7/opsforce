@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ESW_lead_MIAW_1746005470461</label>
+    <site>
+        <urlPathPrefix>ESWleadMIAW1746005470461</urlPathPrefix>
+    </site>
+    <space>site/ESW_lead_MIAW_17460054704611</space>
+</DigitalExperienceConfig>

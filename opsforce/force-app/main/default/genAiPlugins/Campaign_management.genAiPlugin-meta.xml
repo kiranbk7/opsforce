@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiPluginUtterances>
+        <developerName>utterance_createacam0</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_createacam0</masterLabel>
+        <utterance>create a campaign of type email for customers from city new york</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_createacam1</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_createacam1</masterLabel>
+        <utterance>create a campaign of type email for customers from city not in new york</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>campaign creation and adding members to the campaign and performance of the campaign</description>
+    <developerName>Campaign_management</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyObjectByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__QueryRecords</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__QueryRecordsWithAggregate</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>campaign_and_campaign_members</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>fetch the contacts criteria specified by the user based on city</description>
+        <developerName>instruction_fetchtheco0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_fetchtheco0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Your job is to create a campaign and add campaign members from contacts</description>
+        <developerName>instruction_yourjobist1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_yourjobist1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>always ask for campaign name</description>
+        <developerName>instruction_alwaysaskf2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwaysaskf2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>only create campaign of type email</description>
+        <developerName>instruction_onlycreate3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_onlycreate3</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Campaign management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your Job is to create campagin add campaign members from contact</scope>
+</GenAiPlugin>

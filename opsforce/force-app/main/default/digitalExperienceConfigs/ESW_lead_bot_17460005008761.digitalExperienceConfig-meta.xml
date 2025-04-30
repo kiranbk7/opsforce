@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ESW_lead_bot_1746000500876</label>
+    <site>
+        <urlPathPrefix>ESWleadbot1746000500876</urlPathPrefix>
+    </site>
+    <space>site/ESW_lead_bot_17460005008761</space>
+</DigitalExperienceConfig>

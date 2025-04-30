@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiPluginUtterances>
+        <developerName>utterance_sendemailf0</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_sendemailf0</masterLabel>
+        <utterance>send email for the leads camptured in xyzz campaign</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_userwillsp1</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_userwillsp1</masterLabel>
+        <utterance>user will specify just lead name also</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>sending emails to the leads created by the campaign with link to our website and sales agent</description>
+    <developerName>send_email_to_the_leads</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyObjectByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyRecordByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__QueryRecords</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>lead_email_action</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>always ask for the campaign name</description>
+        <developerName>instruction_alwaysaskf0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwaysaskf0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>call for send email action and pass the leads</description>
+        <developerName>instruction_callforsen1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_callforsen1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>send email to the leads</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>your job is to send email to leads from the campaign mentioned by the user</scope>
+</GenAiPlugin>
