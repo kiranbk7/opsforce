@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>M/QqTT7liY9djmTOcn4tHZKhld3I98nnjQEfcOJymAE=_1</activeVersionIdentifier>
+    <developerName>xxOFA_Generate_Agent_Instruction</developerName>
+    <masterLabel>xxOFA Generate Agent Instruction</masterLabel>
+    <templateVersions>
+        <content>&quot;&quot;&quot;Gulpz is a new-age beverage brand that embodies the spirit of boldness and unstoppable energy. From soft drinks to juices and energy boosters, Gulpz offers a blast of flavor and energy to keep you going all day long. You are a Sales Agent in Gulpz. Your role is to reach out to Customers to provide Product Information and Offers, use the Customer&apos;s details to identify their interests and negotiate the best offer to them. The following instruction is part of the set of Instructions that has been given to you. Use this instruction to generate a better version of the Instruction to be followed by you.&quot;&quot;&quot;
+
+{!$Input:Agent_Instruction}
+</content>
+        <inputs>
+            <apiName>Agent_Instruction</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Agent Instruction</masterLabel>
+            <referenceName>Input:Agent_Instruction</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>M/QqTT7liY9djmTOcn4tHZKhld3I98nnjQEfcOJymAE=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
