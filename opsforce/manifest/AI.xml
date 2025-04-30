@@ -11,7 +11,7 @@
 	<types>
 		<members>Add_new_Instruction_Definition</members>
 		<members>Custom_Topics_Usage</members>
-		<members>Custom_Topics_Usage1</members>
+		<members>Custom_Topics_Usage1</members> 
 		<members>SageMakerServiceFlow</members>
 		<members>Send_Email_to_Leads_Template</members>
 		<members>Send_Order_Update</members>
