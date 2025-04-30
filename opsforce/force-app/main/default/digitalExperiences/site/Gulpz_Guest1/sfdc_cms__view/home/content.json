@@ -1,0 +1,533 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a6e09466-4907-4489-8cce-5b39c9e88deb\",\"columns\":[{\"UUID\":\"ecdbdfe3-de7a-4ab3-b37b-5efc1a4ec218\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "bannerAlignment" : "center",
+                "bannerLinkAssistiveText" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center right",
+                "contentWidth" : 50,
+                "height" : 450,
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCCFUACL4BCRHBHDOVPVCF5FUAWQ?lastModifiedDate=Wed Apr 30 07:10:43 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCCFUACL4BCRHBHDOVPVCF5FUAWQ\",\"contentType\":null}}",
+                "imagePosition" : "bottom center",
+                "isBannerLink" : false,
+                "overlayColor" : "",
+                "showButtons" : false,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Welcome to Gulpz – Refresh Your World!",
+                    "textAlign" : "center",
+                    "textColor" : "rgb(226, 201, 143)",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h1\",\"enableOverride\":true}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "37d85d24-9423-41fc-a68a-68c8cf668932",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Discover Bold Soft Drinks, Juices, and Energy Drinks.",
+                    "textAlign" : "center",
+                    "textColor" : "rgb(245, 245, 245)",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "eec95a40-11c6-487c-9d87-be6e2f2dbbf2",
+                  "type" : "component"
+                } ],
+                "id" : "f39c95a6-2648-41dd-a7ea-4a0b17a92aeb",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "506d0e22-b573-4866-a61c-6546fd1caae3",
+                  "type" : "component"
+                } ],
+                "id" : "1155f653-0564-4bcf-ae8a-df1f2325e076",
+                "name" : "bannerPrimaryButton",
+                "title" : "Primary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "b41fa271-30b7-442a-aade-7ad620b6ea4d",
+                  "type" : "component"
+                } ],
+                "id" : "bd865184-0c27-4dc0-9d42-bebb8dd1c0a4",
+                "name" : "bannerSecondaryButton",
+                "title" : "Secondary Button Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "739f5be5-2315-4c87-b01d-26027b4992dd",
+                  "type" : "component"
+                } ],
+                "id" : "5a395ba6-0d2b-4de5-bea7-4366c18e7156",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:banner",
+              "id" : "5388f016-d003-4b65-b863-ce003b209ad5",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "deploymentName" : "lead_bot",
+                "hideChatButtonOnLoad" : "Default",
+                "isExpSiteAuthMode" : false,
+                "scrtUrl" : "https://orgfarm-3f27e43a0f.my.salesforce-scrt.com",
+                "siteEndpoint" : "https://orgfarm-3f27e43a0f.my.site.com/ESWleadbot1746000500876"
+              },
+              "definition" : "experience_messaging:embeddedMessaging",
+              "id" : "6c391593-b93a-4cc6-adca-acb553009b96",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "hideChatButtonOnLoad" : "Default",
+                "isExpSiteAuthMode" : false,
+                "scrtUrl" : "https://orgfarm-3f27e43a0f.my.salesforce-scrt.com"
+              },
+              "definition" : "experience_messaging:embeddedMessaging",
+              "id" : "9a6a330d-b821-4174-b291-0c58ed4deb43",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center",
+                "contentWidth" : 100,
+                "height" : 500,
+                "imageAlignment" : "left",
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCM62ZH35BBBAHHA5IO6QOBKU47M?lastModifiedDate=Wed Apr 30 07:31:35 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCM62ZH35BBBAHHA5IO6QOBKU47M\",\"contentType\":null}}",
+                "imagePortion" : "33.33%",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "linkUrl" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Crack Open the Rush. Gulpz Coke - Bold, Bubbly, Unstoppable.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h1\",\"enableOverride\":true}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "8e7d8cfa-f937-4d97-9f32-723c7ff10f10",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Fuel your moments with the fierce fizz of Gulpz. Classic Cola flavour, turbocharged for new generation.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "4892b39b-d158-43b7-aab8-2ab5d1ab50b8",
+                  "type" : "component"
+                } ],
+                "id" : "ce0ce553-64f5-47fc-8890-9f20d72a327f",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "1947d362-b710-42da-95a6-518e9c37e467",
+                  "type" : "component"
+                } ],
+                "id" : "1e5941d6-ec3a-44d7-9cb2-f513e7dd70ca",
+                "name" : "primaryButton",
+                "title" : "primaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "77c31d1b-29ef-429b-bdba-12fdae965b3d",
+                  "type" : "component"
+                } ],
+                "id" : "eff5eed6-485a-4f51-8566-b988626f889b",
+                "name" : "secondaryButton",
+                "title" : "secondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "be6ce2cd-088c-4fbc-84af-2206bf1378d0",
+                  "type" : "component"
+                } ],
+                "id" : "9717dd33-9144-434f-a24a-dffdcc60a017",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:card",
+              "id" : "7bcd0a25-b677-4911-bf93-b1d4d37581ca",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center",
+                "contentWidth" : 100,
+                "height" : 500,
+                "imageAlignment" : "right",
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUWEII2RT2JFXTJLHRPN3UDRBTM?lastModifiedDate=Wed Apr 30 07:32:39 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCUWEII2RT2JFXTJLHRPN3UDRBTM\",\"contentType\":null}}",
+                "imagePortion" : "33.33%",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "linkUrl" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Burst Into Pure Flavor. Gulpz Fruit Juice — Naturally Unstoppable.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h1\",\"enableOverride\":true}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6b8ac23d-9abc-4dc6-87d8-a54ef8565a1a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Squeeze every drop of life with Gulpz.\nReal fruit goodness, bold taste, made for your hustle.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "f3b448d0-c041-4082-abe9-a29ccef6f22f",
+                  "type" : "component"
+                } ],
+                "id" : "de18491b-1540-47ec-a963-017b0e83bb07",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "c0d53d6a-c2e3-4317-bb77-1479072ef7fe",
+                  "type" : "component"
+                } ],
+                "id" : "3d3d5a41-2749-4414-995b-d4382e3a1c1d",
+                "name" : "primaryButton",
+                "title" : "primaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "fc750421-650a-418b-98f6-36d201f2d614",
+                  "type" : "component"
+                } ],
+                "id" : "81aa20f6-3d1b-4c43-8c37-d44cb58a30d0",
+                "name" : "secondaryButton",
+                "title" : "secondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "357096c1-6333-4cc2-af6c-c31dc6c813c0",
+                  "type" : "component"
+                } ],
+                "id" : "6eebe222-7801-4b5b-af07-9efd08d8625f",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:card",
+              "id" : "558029bc-6276-4511-846f-8a9de0ffcfb5",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center",
+                "contentWidth" : 100,
+                "height" : 500,
+                "imageAlignment" : "left",
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCLYUVVZTC25FPXAFCXMCP4U5ZIU?lastModifiedDate=Wed Apr 30 07:26:37 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCLYUVVZTC25FPXAFCXMCP4U5ZIU\",\"contentType\":null}}",
+                "imagePortion" : "33.33%",
+                "imagePosition" : "center center",
+                "isLink" : false,
+                "linkAssistiveText" : "",
+                "linkUrl" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Unleash the Charge. Gulpz Energy — Power Your Next Move.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h1\",\"enableOverride\":true}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "2e57af12-5c15-420e-a85d-6c18eab09e79",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Crush fatigue and fuel your fire with Gulpz.\nHigh-energy boost, bold flavor — built for those who never back down.",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6c340447-6747-426a-a4a4-a21836397c3c",
+                  "type" : "component"
+                } ],
+                "id" : "0511e6d3-f868-4c25-90e4-f1bdb99907e6",
+                "name" : "contentRegion",
+                "title" : "Content Region",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "52364528-4900-4f4a-bf30-79a2b6450084",
+                  "type" : "component"
+                } ],
+                "id" : "8c4923f8-3030-43a6-95db-548ee6f142da",
+                "name" : "primaryButton",
+                "title" : "primaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "c4cd5344-72f2-4af5-a345-6f1599688ce8",
+                  "type" : "component"
+                } ],
+                "id" : "399dcb41-2447-444b-8fe4-c06ce14db480",
+                "name" : "secondaryButton",
+                "title" : "secondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "fe89d49d-a9ff-4aaa-bc4d-d60d9c80dfae",
+                  "type" : "component"
+                } ],
+                "id" : "c49f4a24-218d-49bc-88f4-1ec1b517bc20",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:card",
+              "id" : "7a1a6acc-687e-4ded-b336-071e4d2d361e",
+              "type" : "component"
+            } ],
+            "id" : "ecdbdfe3-de7a-4ab3-b37b-5efc1a4ec218",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a6e09466-4907-4489-8cce-5b39c9e88deb",
+          "type" : "component"
+        } ],
+        "id" : "572a822a-53be-456a-8421-d47a42748870",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "4fe570c2-b493-4568-a19e-643c04c0812f",
+          "type" : "component"
+        } ],
+        "id" : "68881d2e-652d-43b3-b3b8-89438a109cc3",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0fd330f5-5269-48af-8e82-4cab64a62ecf",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

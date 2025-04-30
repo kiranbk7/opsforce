@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlanner xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Help your customer service representatives resolve cases faster with an AI-generated list of suggested resolution steps grounded in your organization&apos;s policies and practices.</description>
+    <masterLabel>Dummy Agent</masterLabel>
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlanner>

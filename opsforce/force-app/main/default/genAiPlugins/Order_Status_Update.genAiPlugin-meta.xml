@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic handles user requests regarding the status of their orders. It includes actions related to checking, updating, and providing information about order statuses.</description>
+    <developerName>Order_Status_Update</developerName>
+    <genAiFunctions>
+        <functionName>Send_Order_Update</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the user asks to update the delivery address on the order, call Send Order Update action.</description>
+        <developerName>instruction_iftheusera0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_iftheusera0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Order Status Update</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to provide information about the status of orders, update order statuses when necessary, and handle inquiries related to order tracking.</scope>
+</GenAiPlugin>

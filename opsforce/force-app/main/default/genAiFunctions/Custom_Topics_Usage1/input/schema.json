@@ -1,0 +1,21 @@
+{
+  "required" : [ "threshold" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "threshold" : {
+      "title" : "threshold",
+      "description" : "120",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "varTopic" : {
+      "title" : "varTopic",
+      "description" : "Lead_Negotiation",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

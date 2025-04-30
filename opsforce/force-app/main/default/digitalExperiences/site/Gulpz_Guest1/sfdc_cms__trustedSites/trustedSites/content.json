@@ -1,0 +1,24 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://*.my.salesforce-scrt.com",
+      "sourceName" : "lead bot"
+    }, {
+      "isActive" : true,
+      "source" : "https://orgfarm-3f27e43a0f.my.site.com/",
+      "sourceName" : "MySite"
+    }, {
+      "isActive" : true,
+      "source" : "https://orgfarm-3f27e43a0f.my.site.com/ESWleadMIAW1746005470461",
+      "sourceName" : "CSP1"
+    }, {
+      "isActive" : true,
+      "source" : "https://orgfarm-3f27e43a0f.my.salesforce-scrt.com",
+      "sourceName" : "CSP2"
+    } ]
+  },
+  "urlName" : "trustedsites"
+}

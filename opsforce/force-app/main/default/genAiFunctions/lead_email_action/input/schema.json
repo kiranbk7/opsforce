@@ -1,0 +1,21 @@
+{
+  "required" : [ "leads" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "leads" : {
+      "title" : "leads",
+      "description" : "list of lead records fetched from the campaign ",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__recordInfoType",
+        "lightning:sObjectInfo" : {
+          "apiName" : "Lead"
+        }
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Registration",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c06c5377-6306-4677-a657-4608364a69c1\",\"columns\":[{\"UUID\":\"7f10cd35-fb64-4cff-a378-d9c3e5216ee0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<!-- META Tag for Character Set -->\n\n<!-- Web-to-Lead Form with Inline Styling (Salesforce-Compatible) -->\n<form action=\"https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DdL00000OP6KY\" method=\"POST\"\n  style=\"max-width:600px; margin:40px auto; padding:20px; border:1px solid #ccc; border-radius:8px; background-color:#ffffff; font-family:Arial, sans-serif; color:#1C3A63;\">\n\n  <input type=\"hidden\" name=\"oid\" value=\"00DdL00000OP6KY\">\n  <input type=\"hidden\" name=\"retURL\" value=\"https://orgfarm-3f27e43a0f.my.site.com/\">\n\n  <label for=\"first_name\" style=\"display:block; margin-top:15px; font-weight:bold;\">First Name</label>\n  <input id=\"first_name\" maxlength=\"40\" name=\"first_name\" size=\"20\" type=\"text\"\n    style=\"width:100%; padding:10px; font-size:14px; border:1px solid #ccc; border-radius:4px;\" />\n\n  <label for=\"last_name\" style=\"display:block; margin-top:15px; font-weight:bold;\">Last Name</label>\n  <input id=\"last_name\" maxlength=\"80\" name=\"last_name\" size=\"20\" type=\"text\"\n    style=\"width:100%; padding:10px; font-size:14px; border:1px solid #ccc; border-radius:4px;\" />\n\n  <label for=\"email\" style=\"display:block; margin-top:15px; font-weight:bold;\">Email</label>\n  <input id=\"email\" maxlength=\"80\" name=\"email\" size=\"20\" type=\"text\"\n    style=\"width:100%; padding:10px; font-size:14px; border:1px solid #ccc; border-radius:4px;\" />\n\n  <label for=\"company\" style=\"display:block; margin-top:15px; font-weight:bold;\">Company</label>\n  <input id=\"company\" maxlength=\"40\" name=\"company\" size=\"20\" type=\"text\"\n    style=\"width:100%; padding:10px; font-size:14px; border:1px solid #ccc; border-radius:4px;\" />\n\n  <label for=\"city\" style=\"display:block; margin-top:15px; font-weight:bold;\">City</label>\n  <input id=\"city\" maxlength=\"40\" name=\"city\" size=\"20\" type=\"text\"\n    style=\"width:100%; padding:10px; font-size:14px; border:1px solid #ccc; border-radius:4px;\" />\n\n  <label for=\"00NdL00000baNAU\" style=\"display:block; margin-top:15px; font-weight:bold;\">Product Interested</label>\n  <select id=\"00NdL00000baNAU\" name=\"00NdL00000baNAU\" title=\"Product Interested\"\n    style=\"width:100%; padding:10px; font-size:14px; border:1px solid #ccc; border-radius:4px; background-color:#fff;\">\n    <option value=\"\">--None--</option>\n    <option value=\"Soft Drink\">Soft Drink</option>\n    <option value=\"Juice\">Juice</option>\n    <option value=\"Energy Drink\">Energy Drink</option>\n  </select>\n\n  <input type=\"submit\" name=\"submit\" value=\"Submit\"\n    style=\"margin-top:20px; padding:12px; background-color:#1C3A63; color:#ffffff; font-size:16px; border:none; border-radius:4px; cursor:pointer;\" />\n\n</form>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9e728944-7bb2-474c-a363-d6c7118ef287",
+              "type" : "component"
+            } ],
+            "id" : "7f10cd35-fb64-4cff-a378-d9c3e5216ee0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c06c5377-6306-4677-a657-4608364a69c1",
+          "type" : "component"
+        } ],
+        "id" : "4c22af79-8e6b-4fbd-9b66-3680737351ac",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Registration",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "6dadf819-0c3c-465a-a60d-b231ec3e6b30",
+          "type" : "component"
+        } ],
+        "id" : "855ffe8a-1e14-4852-bc2f-f5045895da5a",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "81889522-1df4-452b-aea6-a142a51cbc2b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-registration"
+  },
+  "urlName" : "registration"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Monitor and assess the performance of the Agent in handling user inquiries and tasks.</description>
+    <developerName>Agent_Performance_Monitoring</developerName>
+    <genAiFunctions>
+        <functionName>Custom_Topics_Usage1</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>xxOFA_Generate_Agent_Instruction</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Add_new_Instruction_Definition</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Evaluate the accuracy of the Agent&apos;s responses based on predefined criteria.</description>
+        <developerName>instruction_evaluateth0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_evaluateth0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Identify patterns in user feedback and report any recurring issues.</description>
+        <developerName>instruction_identifypa1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_identifypa1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Monitor the time taken by the Agent to respond to user inquiries.</description>
+        <developerName>instruction_monitorthe2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_monitorthe2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When the User Asks about how the Lead Agent is performing, get it&apos;s performance report for today. If the performance is below threshold, retrieve all the instructions of that agent and present them in a tabular structure for the User to review.</description>
+        <developerName>instruction_whentheuse3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whentheuse3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When the User asks to generate a better instruction, take the instruction which needs to be improved and call the action xxOFA Generate Agent Instruction.</description>
+        <developerName>instruction_whentheuse4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whentheuse4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When user asks to update or add instruction, call Add New Instruction Definition action.</description>
+        <developerName>instruction_whenuseras5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenuseras5</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Agent Performance Monitoring</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to monitor the Agent&apos;s performance, track key metrics, and ensure the Agent is responding accurately and efficiently. You should not attempt to resolve user issues directly, but rather focus on evaluating the Agent&apos;s interactions.</scope>
+</GenAiPlugin>

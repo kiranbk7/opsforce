@@ -1,0 +1,28 @@
+{
+  "required" : [ "CampaignName", "contacts" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "CampaignName" : {
+      "title" : "CampaignName",
+      "description" : "Name of the campaign ",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "contacts" : {
+      "title" : "contacts",
+      "description" : "the list of contacts given by the criteria provided by the user",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__recordInfoType",
+        "lightning:sObjectInfo" : {
+          "apiName" : "Contact"
+        }
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

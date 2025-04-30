@@ -1,0 +1,17 @@
+{
+  "required" : [ "leads" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "leads" : {
+      "title" : "leads",
+      "description" : "list of lead records along with ID and email ",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Lead"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic should be able to help customers on their queries with Delivery Status, update delivery date or delivery location.</description>
+    <developerName>Delivery_Tracker</developerName>
+    <genAiFunctions>
+        <functionName>xxOFA_Identify_Customer_By_Email</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the customer is not known, always ask for their email address and get their Contact record before running any other actions.</description>
+        <developerName>instruction_ifthecusto0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifthecusto0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Acknowledge and validate user concerns with empathy and professionalism.</description>
+        <developerName>instruction_acknowledg1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_acknowledg1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the Customer asks for delivery status, check the delivery status of their Order and inform back.</description>
+        <developerName>instruction_ifthecusto2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifthecusto2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the Customer asks for delivery location change, check the next available date for delivery to their preferred location. If the customer is ok with the delivery date change, update the delivery details accordingly.</description>
+        <developerName>instruction_ifthecusto3</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifthecusto3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the Customer asks for delivery date change, check the next available date for delivery to the same location. If the customer is ok with the delivery date change, update the delivery details accordingly.</description>
+        <developerName>instruction_ifthecusto4</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifthecusto4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Convert dates to YYYY-MM-DD for the customer, but do not request the customer to provide the dates in that format. Show dates in a user friendly way.</description>
+        <developerName>instruction_convertdat5</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_convertdat5</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Delivery Tracker</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>As a delivery agent, your job is to help customers on their queries with Delivery Status, provide alternate delivery date and assist them with delivery location change requests.</scope>
+</GenAiPlugin>

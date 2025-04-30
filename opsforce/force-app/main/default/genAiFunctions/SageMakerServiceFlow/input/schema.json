@@ -1,0 +1,49 @@
+{
+  "required" : [ "Cost", "VoteCount", "location", "name", "rating", "restaurantType" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Cost" : {
+      "title" : "Cost",
+      "description" : "Default value 5000",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "VoteCount" : {
+      "title" : "VoteCount",
+      "description" : "Default value 1000",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "location" : {
+      "title" : "location",
+      "description" : "Default value Banshankari",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "name" : {
+      "title" : "name",
+      "description" : "Name of the User",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "rating" : {
+      "title" : "rating",
+      "description" : "Default value 5",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "restaurantType" : {
+      "title" : "restaurantType",
+      "description" : "Type of establishment",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
