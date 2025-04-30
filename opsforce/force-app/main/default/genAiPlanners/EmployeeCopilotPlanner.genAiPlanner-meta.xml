@@ -11,9 +11,6 @@
         <genAiPluginName>Campaign_management</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>
-        <genAiPluginName>EmployeeCopilot__GeneralCRM</genAiPluginName>
-    </genAiPlugins>
-    <genAiPlugins>
         <genAiPluginName>EmployeeCopilot__OOTBSingleRecordSummary</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>

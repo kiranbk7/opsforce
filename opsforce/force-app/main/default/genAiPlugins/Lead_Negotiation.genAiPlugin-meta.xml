@@ -81,24 +81,6 @@
         <language>en_US</language>
         <masterLabel>instruction_wheneverac9</masterLabel>
     </genAiPluginInstructions>
-    <genAiPluginInstructions>
-        <description>test create from flow</description>
-        <developerName>testDefinition</developerName>
-        <language>en_US</language>
-        <masterLabel>testDefinition</masterLabel>
-    </genAiPluginInstructions>
-    <genAiPluginInstructions>
-        <description>test</description>
-        <developerName>test11</developerName>
-        <language>en_US</language>
-        <masterLabel>test</masterLabel>
-    </genAiPluginInstructions>
-    <genAiPluginInstructions>
-        <description>test</description>
-        <developerName>test12</developerName>
-        <language>en_US</language>
-        <masterLabel>test</masterLabel>
-    </genAiPluginInstructions>
     <language>en_US</language>
     <masterLabel>Lead Negotiation</masterLabel>
     <pluginType>Topic</pluginType>

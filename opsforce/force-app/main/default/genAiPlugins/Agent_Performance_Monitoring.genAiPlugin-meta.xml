@@ -42,6 +42,12 @@
         <language>en_US</language>
         <masterLabel>instruction_whentheuse4</masterLabel>
     </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When user asks to update or add instruction, call Add New Instruction Definition action.</description>
+        <developerName>instruction_whenuseras5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenuseras5</masterLabel>
+    </genAiPluginInstructions>
     <language>en_US</language>
     <masterLabel>Agent Performance Monitoring</masterLabel>
     <pluginType>Topic</pluginType>
