@@ -1,13 +1,13 @@
 {
-  "required" : [ "contacts" ],
+  "required" : [ "CampaignName", "contacts" ],
   "unevaluatedProperties" : false,
   "properties" : {
     "CampaignName" : {
       "title" : "CampaignName",
-      "description" : "name of the campaign ",
+      "description" : "Name of the campaign ",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
-      "copilotAction:isUserInput" : true
+      "copilotAction:isUserInput" : false
     },
     "contacts" : {
       "title" : "contacts",

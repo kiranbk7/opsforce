@@ -1,0 +1,14 @@
+{
+  "required" : [ "user_prompt" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "user_prompt" : {
+      "title" : "user_prompt",
+      "description" : "the query which is mentioned by user about the order",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

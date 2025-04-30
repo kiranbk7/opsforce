@@ -1,0 +1,21 @@
+{
+  "required" : [ "listofOpp" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "listofOpp" : {
+      "title" : "listofOpp",
+      "description" : "List of Opportunity where criteria is provided by the user ",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__recordInfoType",
+        "lightning:sObjectInfo" : {
+          "apiName" : "Opportunity"
+        }
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

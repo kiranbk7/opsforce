@@ -1,0 +1,35 @@
+{
+  "required" : [ "CompanyName", "Email", "OrderInstructions", "PersonName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "CompanyName" : {
+      "title" : "CompanyName",
+      "description" : "Establishment Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Email" : {
+      "title" : "Email",
+      "description" : "User Email",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "OrderInstructions" : {
+      "title" : "OrderInstructions",
+      "description" : "Additional Conditions",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "PersonName" : {
+      "title" : "PersonName",
+      "description" : "User Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

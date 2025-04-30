@@ -1,0 +1,28 @@
+{
+  "required" : [ "DeveloperName", "newInstruction", "varTopicName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "DeveloperName" : {
+      "title" : "DeveloperName",
+      "description" : "OpsForce",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "newInstruction" : {
+      "title" : "newInstruction",
+      "description" : "New Instruction shared by user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "varTopicName" : {
+      "title" : "varTopicName",
+      "description" : "Lead_Negotiation",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
